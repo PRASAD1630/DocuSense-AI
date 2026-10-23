@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Local database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Temporary files
+data/ocr_test.pdf
+test_groq.py
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,352 @@
+{
+    "project": "TRI9T CT-200 Document Version Comparison",
+    "original_document": "ct200_manual.pdf",
+    "updated_document": "ct200_manual_v2.pdf",
+    "original_pages": 6,
+    "updated_pages": 7,
+    "old_section_count": 32,
+    "new_section_count": 33,
+    "changes": [
+        {
+            "section_number": "2.1.1.1",
+            "title": "Battery Life Under Typical Use",
+            "status": "modified",
+            "old_hash": "9442a8af0062bb7dbed9e14fb95e73c9a2fa04ec893f8668c386c787b3f2fe31",
+            "new_hash": "2acf3a5158b40bff16f9f763f2b6ec5f9d8bdf4e5841b2fab2850a4ba5b37358",
+            "old_content": "Under typical use (three measurements per day), four AA alkaline\nbatteries provide approximately 300 measurement cycles before\nrequiring replacement. The device displays a low‐battery icon once\nremaining capacity falls below 15%.",
+            "new_content": "Under typical use (three measurements per day), four AA alkaline\nbatteries provide approximately 250 measurement cycles before\nrequiring replacement — revised downward from earlier estimates after\nextended field testing. The device displays a low‐battery icon once\nremaining capacity falls below 10%.",
+            "diff": {
+                "diff": [
+                    "--- original",
+                    "+++ updated",
+                    "@@ -1,4 +1,5 @@",
+                    " Under typical use (three measurements per day), four AA alkaline",
+                    "-batteries provide approximately 300 measurement cycles before",
+                    "-requiring replacement. The device displays a low‐battery icon once",
+                    "-remaining capacity falls below 15%.",
+                    "+batteries provide approximately 250 measurement cycles before",
+                    "+requiring replacement — revised downward from earlier estimates after",
+                    "+extended field testing. The device displays a low‐battery icon once",
+                    "+remaining capacity falls below 10%."
+                ],
+                "removed_lines": [
+                    "batteries provide approximately 300 measurement cycles before",
+                    "requiring replacement. The device displays a low‐battery icon once",
+                    "remaining capacity falls below 15%."
+                ],
+                "added_lines": [
+                    "batteries provide approximately 250 measurement cycles before",
+                    "requiring replacement — revised downward from earlier estimates after",
+                    "extended field testing. The device displays a low‐battery icon once",
+                    "remaining capacity falls below 10%."
+                ],
+                "word_changes": [
+                    {
+                        "operation": "replace",
+                        "old_text": "300",
+                        "new_text": "250"
+                    },
+                    {
+                        "operation": "replace",
+                        "old_text": "replacement.",
+                        "new_text": "replacement — revised downward from earlier estimates after extended field testing."
+                    },
+                    {
+                        "operation": "replace",
+                        "old_text": "15%.",
+                        "new_text": "10%."
+                    }
+                ]
+            },
+            "numeric_changes": {
+                "removed": [
+                    "300",
+                    "15%"
+                ],
+                "added": [
+                    "250",
+                    "10%"
+                ]
+            },
+            "error_code_changes": {
+                "removed": [],
+                "added": [],
+                "old_occurrences": {},
+                "new_occurrences": {}
+            },
+            "review_flags": [
+                "numeric_values"
+            ],
+            "similarity": 0.854,
+            "review_priority": "HIGH"
+        },
+        {
+            "section_number": "3.2",
+            "title": "Cuff Inflation Sequence",
+            "status": "modified",
+            "old_hash": "a1f73152526532cf4692d15ffc9516518dceea83d6ae73a8ed153ea6e946fa1f",
+            "new_hash": "55ebaee831ad851bfc5532389dde25f00bd5e2e7a3bf8b0c0f47651a1cdf1f52",
+            "old_content": "On starting a measurement, the device inflates the cuff to an initial target\nof 180 mmHg. If the user's pulse is not detected by 180 mmHg, the\ndevice inflates in 40 mmHg increments up to a maximum of 299 mmHg\nbefore aborting with an error. Deflation occurs in controlled steps of\napproximately 3 mmHg to capture oscillometric pulse data.",
+            "new_content": "On starting a measurement, the device inflates the cuff to an initial target\nof 180 mmHg. If the user's pulse is not detected by 180 mmHg, the\ndevice inflates in 30 mmHg increments up to a maximum of 299 mmHg\nbefore aborting with an error. Deflation occurs in controlled steps of\napproximately 3 mmHg to capture oscillometric pulse data. Increment\nsize was reduced from the original 40 mmHg to improve pulse-detection\nreliability in field testing.",
+            "diff": {
+                "diff": [
+                    "--- original",
+                    "+++ updated",
+                    "@@ -1,5 +1,7 @@",
+                    " On starting a measurement, the device inflates the cuff to an initial target",
+                    " of 180 mmHg. If the user's pulse is not detected by 180 mmHg, the",
+                    "-device inflates in 40 mmHg increments up to a maximum of 299 mmHg",
+                    "+device inflates in 30 mmHg increments up to a maximum of 299 mmHg",
+                    " before aborting with an error. Deflation occurs in controlled steps of",
+                    "-approximately 3 mmHg to capture oscillometric pulse data.",
+                    "+approximately 3 mmHg to capture oscillometric pulse data. Increment",
+                    "+size was reduced from the original 40 mmHg to improve pulse-detection",
+                    "+reliability in field testing."
+                ],
+                "removed_lines": [
+                    "device inflates in 40 mmHg increments up to a maximum of 299 mmHg",
+                    "approximately 3 mmHg to capture oscillometric pulse data."
+                ],
+                "added_lines": [
+                    "device inflates in 30 mmHg increments up to a maximum of 299 mmHg",
+                    "approximately 3 mmHg to capture oscillometric pulse data. Increment",
+                    "size was reduced from the original 40 mmHg to improve pulse-detection",
+                    "reliability in field testing."
+                ],
+                "word_changes": [
+                    {
+                        "operation": "replace",
+                        "old_text": "40",
+                        "new_text": "30"
+                    },
+                    {
+                        "operation": "insert",
+                        "old_text": "",
+                        "new_text": "Increment size was reduced from the original 40 mmHg to improve pulse-detection reliability in field testing."
+                    }
+                ]
+            },
+            "numeric_changes": {
+                "removed": [],
+                "added": [
+                    "30 mmHg"
+                ]
+            },
+            "error_code_changes": {
+                "removed": [],
+                "added": [],
+                "old_occurrences": {},
+                "new_occurrences": {}
+            },
+            "review_flags": [
+                "numeric_values"
+            ],
+            "similarity": 0.857,
+            "review_priority": "HIGH"
+        },
+        {
+            "section_number": "4.2",
+            "title": "Error Codes",
+            "status": "modified",
+            "old_hash": "9afb12e92c63b1cd9b36ea81868e0b90171a1892831774f180e570af0179cfda",
+            "new_hash": "e25bd2f7d22540ebd0d528cb0df512750827fe55f34e78f610e356aa518b064f",
+            "old_content": "Code        Meaning                Device Behavior\nE1    Cuff not connected or      Aborts measurement, displays E1\nleak detected\nE2     Motion artifact detected    Aborts measurement, displays\nduring measurement       E2, prompts retry\nE3     Overpressure condition    Auto-deflates within 2 seconds,\ndisplays E3\nE4    Low battery during         Aborts measurement, displays E4\nmeasurement\nE5      Internal sensor fault       Device disables measurement\nfunction, displays E5 until\nserviced",
+            "new_content": "Code        Meaning                Device Behavior\nE1    Cuff not connected or      Aborts measurement, displays E1\nleak detected\nE2     Motion artifact detected    Aborts measurement, displays\nduring measurement       E2, prompts retry\nE3     Overpressure condition    Auto-deflates within 1.5 seconds,\ndisplays E3\nE4    Low battery during         Aborts measurement, displays E4\nmeasurement\nE5      Internal sensor fault       Device disables measurement\nfunction, displays E5 until\nserviced\nE6     Bluetooth sync failure      Displays E6 on next sync\nattempt; does not affect\nmeasurement",
+            "diff": {
+                "diff": [
+                    "--- original",
+                    "+++ updated",
+                    "@@ -3,10 +3,13 @@",
+                    " leak detected",
+                    " E2     Motion artifact detected    Aborts measurement, displays",
+                    " during measurement       E2, prompts retry",
+                    "-E3     Overpressure condition    Auto-deflates within 2 seconds,",
+                    "+E3     Overpressure condition    Auto-deflates within 1.5 seconds,",
+                    " displays E3",
+                    " E4    Low battery during         Aborts measurement, displays E4",
+                    " measurement",
+                    " E5      Internal sensor fault       Device disables measurement",
+                    " function, displays E5 until",
+                    " serviced",
+                    "+E6     Bluetooth sync failure      Displays E6 on next sync",
+                    "+attempt; does not affect",
+                    "+measurement"
+                ],
+                "removed_lines": [
+                    "E3     Overpressure condition    Auto-deflates within 2 seconds,"
+                ],
+                "added_lines": [
+                    "E3     Overpressure condition    Auto-deflates within 1.5 seconds,",
+                    "E6     Bluetooth sync failure      Displays E6 on next sync",
+                    "attempt; does not affect",
+                    "measurement"
+                ],
+                "word_changes": [
+                    {
+                        "operation": "replace",
+                        "old_text": "2",
+                        "new_text": "1.5"
+                    },
+                    {
+                        "operation": "insert",
+                        "old_text": "",
+                        "new_text": "E6 Bluetooth sync failure Displays E6 on next sync attempt; does not affect measurement"
+                    }
+                ]
+            },
+            "numeric_changes": {
+                "removed": [
+                    "2 seconds"
+                ],
+                "added": [
+                    "1.5 seconds"
+                ]
+            },
+            "error_code_changes": {
+                "removed": [],
+                "added": [
+                    "E6"
+                ],
+                "old_occurrences": {
+                    "E1": 2,
+                    "E2": 2,
+                    "E3": 2,
+                    "E4": 2,
+                    "E5": 2
+                },
+                "new_occurrences": {
+                    "E1": 2,
+                    "E2": 2,
+                    "E3": 2,
+                    "E4": 2,
+                    "E5": 2,
+                    "E6": 2
+                }
+            },
+            "review_flags": [
+                "numeric_values",
+                "error_codes",
+                "technical_terms: failure"
+            ],
+            "similarity": 0.901,
+            "review_priority": "HIGH"
+        },
+        {
+            "section_number": "4.3",
+            "title": "Alarm Thresholds",
+            "status": "modified",
+            "old_hash": "6817a25d70598832d23d5dc2fcf3a1fd5ad745e619734bdb598600fb86244f0b",
+            "new_hash": "8cb7395674cce9409524b237d3f74a15618933ada232195edb0dd4f4651532c0",
+            "old_content": "The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E5 error conditions above\nand are user‐configurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+            "new_content": "The device does not sound an audible alarm for elevated readings by\ndefault; audible alarms are limited to the E1–E6 error conditions above\nand are user‐configurable in the settings menu, except for E3\n(overpressure), which cannot be silenced for safety reasons.",
+            "diff": {
+                "diff": [
+                    "--- original",
+                    "+++ updated",
+                    "@@ -1,4 +1,4 @@",
+                    " The device does not sound an audible alarm for elevated readings by",
+                    "-default; audible alarms are limited to the E1–E5 error conditions above",
+                    "+default; audible alarms are limited to the E1–E6 error conditions above",
+                    " and are user‐configurable in the settings menu, except for E3",
+                    " (overpressure), which cannot be silenced for safety reasons."
+                ],
+                "removed_lines": [
+                    "default; audible alarms are limited to the E1–E5 error conditions above"
+                ],
+                "added_lines": [
+                    "default; audible alarms are limited to the E1–E6 error conditions above"
+                ],
+                "word_changes": [
+                    {
+                        "operation": "replace",
+                        "old_text": "E1–E5",
+                        "new_text": "E1–E6"
+                    }
+                ]
+            },
+            "numeric_changes": {
+                "removed": [],
+                "added": []
+            },
+            "error_code_changes": {
+                "removed": [
+                    "E5"
+                ],
+                "added": [
+                    "E6"
+                ],
+                "old_occurrences": {
+                    "E1": 1,
+                    "E3": 1,
+                    "E5": 1
+                },
+                "new_occurrences": {
+                    "E1": 1,
+                    "E3": 1,
+                    "E6": 1
+                }
+            },
+            "review_flags": [
+                "error_codes"
+            ],
+            "similarity": 0.996,
+            "review_priority": "HIGH"
+        },
+        {
+            "section_number": "5.3",
+            "title": "Data Export",
+            "status": "added",
+            "old_hash": null,
+            "new_hash": "68b20ec882fa18ab9577984c930fa9e97225cc4d37b79a2963931f1c2f275f67",
+            "old_content": null,
+            "new_content": "Starting with firmware 1.4, the companion app supports exporting stored\nreadings as a CSV file containing timestamp, profile, systolic, diastolic,\npulse, and classification columns. Export requires the device to have\ncompleted at least one successful Bluetooth sync in the current session.",
+            "diff": {
+                "diff": [
+                    "--- original",
+                    "+++ updated",
+                    "@@ -0,0 +1,4 @@",
+                    "+Starting with firmware 1.4, the companion app supports exporting stored",
+                    "+readings as a CSV file containing timestamp, profile, systolic, diastolic,",
+                    "+pulse, and classification columns. Export requires the device to have",
+                    "+completed at least one successful Bluetooth sync in the current session."
+                ],
+                "removed_lines": [],
+                "added_lines": [
+                    "Starting with firmware 1.4, the companion app supports exporting stored",
+                    "readings as a CSV file containing timestamp, profile, systolic, diastolic,",
+                    "pulse, and classification columns. Export requires the device to have",
+                    "completed at least one successful Bluetooth sync in the current session."
+                ],
+                "word_changes": [
+                    {
+                        "operation": "insert",
+                        "old_text": "",
+                        "new_text": "Starting with firmware 1.4, the companion app supports exporting stored readings as a CSV file containing timestamp, profile, systolic, diastolic, pulse, and classification columns. Export requires the device to have completed at least one successful Bluetooth sync in the current session."
+                    }
+                ]
+            },
+            "numeric_changes": {
+                "removed": [],
+                "added": [
+                    "1.4"
+                ]
+            },
+            "error_code_changes": {
+                "removed": [],
+                "added": [],
+                "old_occurrences": {},
+                "new_occurrences": {}
+            },
+            "review_flags": [
+                "numeric_values"
+            ],
+            "review_priority": "HIGH"
+        }
+    ],
+    "summary": {
+        "added_sections": 1,
+        "modified_sections": 4,
+        "removed_sections": 0,
+        "total_changes": 5
+    }
+}
